@@ -1,0 +1,253 @@
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.top-caru {
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
+.line-1 {
+    background: rgba(255, 255, 255, .6);
+}
+
+.manzilmi {
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-1 {
+    background-image: url(../../images/thBest-img/img5.png);
+    width: 100%;
+    height: 640px;
+    background-size: cover;
+}
+
+.carousel-1 {
+    background-image: url(../../images/thBest-img/img5.png);
+    width: 100%;
+    height: 640px;
+    background-size: cover;
+}
+
+.ca2 {
+    background-image: url(../../images/thBest-img/img15.png);
+}
+
+.ca3 {
+    background-image: url(../../images/thBest-img/img7.png);
+}
+
+.ca4 {
+    background-image: url(../../images/thBest-img/img8.png);
+}
+
+.ca5 {
+    background-image: url(../../images/thBest-img/img9.png);
+}
+
+.ca6 {
+    background-image: url(../../images/thBest-img/img10.png);
+}
+
+.ca7 {
+    background-image: url(../../images/thBest-img/img11.png);
+}
+
+.ca8 {
+    background-image: url(../../images/thBest-img/img12.png);
+}
+
+.ca9 {
+    background-image: url(../../images/thBest-img/img14.png);
+}
+
+.bac-round {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.right-best {
+    position: relative;
+    background: rgba(255, 255, 255, .7);
+    width: 40%;
+    height: 605px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 30px;
+}
+
+.title-best {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title-best h1 {
+    color: var(--pink);
+    font-weight: 600;
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+
+.location-best {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding-left: 35px;
+}
+
+.location-best p {
+    color: var(--pink);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.bottom-best {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    column-gap: 10px;
+}
+
+.location-main {
+    font-size: 30px;
+    color: var(--pink);
+}
+
+.tel-best {
+    color: var(--pink);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 35px;
+}
+
+.bottom-best {
+    display: flex;
+}
+
+.telephone-main {
+    font-size: 25px;
+    color: var(--pink);
+}
+
+.narxlari {
+    position: relative;
+    top: 25px;
+    margin-bottom: 60px;
+    row-gap: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.narxlari p:first-child {
+    font-size: 20px;
+}
+
+.narxlari p:last-child {
+    font-size: 25px;
+}
+
+.tbn-best {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tbn-best a {
+    box-shadow: var(--shadow);
+    color: var(--wht);
+    background: var(--pink);
+    width: 75%;
+    height: 45%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .right-best {
+        width: 55%;
+        height: 570px;
+        position: relative;
+        top: 22px;
+    }
+
+    .tel-best,
+    .location-best {
+        padding: 0;
+    }
+
+    .tbn-best a {
+        width: 100%;
+        height: 45%;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    .tbn-best {
+        height: 80px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .right-best {
+        right: 0;
+    }
+
+    .location-best p {
+        font-size: 13px;
+    }
+
+    .location-main {
+        font-size: 25px;
+    }
+
+    .tel-best p {
+        font-size: 13px;
+    }
+
+    .telephone-main {
+        font-size: 25px;
+    }
+
+    .narxlari p:first-child {
+        font-size: 13px;
+    }
+
+    .narxlari p:last-child {
+        font-size: 14px;
+    }
+
+    .title-best h1 {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+}

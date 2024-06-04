@@ -1,0 +1,276 @@
+.manager_hero{
+    width: 100%;
+}
+.manager_hero_main{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: rgba(0, 0, 0, .3) url(../../images/manager_hero_img/img.png);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-position: center top;
+    position: relative;
+    z-index: 0;
+}
+.manager_hero_main_container{
+    position: relative;
+}
+.manager_hero_main_p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    color: var(--wht);
+    margin-top: 140px;
+}
+.manager_hero_main_p1{
+    width: 25%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--wht);
+    margin-top: 10px;
+}
+.manager_hero_main_btn{
+    width: max-content;
+    background: var(--sariq);
+    padding: .8rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 20px;
+    display: flex;
+    /* font-family: 'Roboto'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--wht);
+}
+.manager_hero_main_div{
+    position: absolute;
+    top: 2px;
+    left: 300px;
+}
+.manager_hero_main_div_img::after{
+    content: '';
+    width: 55px;
+    height: 55px;
+    background: rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    border-radius: inherit;
+}
+.manager_hero_main_div_img{
+    width: 55px;
+    height: 55px;
+    background: var(--kok1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: -25px;
+    left: 125px;
+}
+.manager_hero_main_div_img img{
+    width: 50%;
+}
+.manager_hero_main_div_bottom{
+    width: max-content;
+    height: auto;
+    background: var(--wht);
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    position: relative;
+    z-index: -1;
+}
+.manager_hero_main_div_bottom::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .3);  
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: inherit;
+    /* opacity: .5; */
+}
+.manager_hero_main_div_bottom_p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+}
+.manager_hero_main_div1{
+    width: max-content;
+    padding: 16px;
+    display: flex;
+    column-gap: 15px;
+    background: var(--wht);
+    border-radius: 5px;
+    position: absolute;
+    right: 80px;
+}
+.manager_hero_main_div1::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .3);  
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: inherit;
+}
+.manager_hero_main_div_img1{
+    width: 55px;
+    height: 55px;
+    background: var(--kok1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.manager_hero_main_div_bottom1_p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.8464px;
+    line-height: 22px;
+}
+.manager_hero_main_div_bottom1_div{
+    display: flex;
+    margin-top: 10px;
+    column-gap: 10px;
+}
+.manager_hero_main_div_bottom1_div_icon{
+    color: var(--yashil);
+}
+.manager_hero_main_div_bottom1_div_p1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.8976px;
+    line-height: 15px;
+}
+.manager_hero_carusel{
+    margin-top: -50px;
+}
+.manager_hero_carusel_div{
+    transform: scale(.8);
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+    padding: 1.3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--wht);
+}
+.manager_hero_carusel_div_p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: var(--black);
+}
+.swiper-button-prev:after{
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 20px;
+    background: var(--wht);
+    color: blue;
+    position: absolute;
+    top: 0;
+    left: -10px;
+    z-index: 10000000000000 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;  
+    color: var(--kul);
+}
+.swiper-button-next:after{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background: var(--wht);
+    color: blue;
+    position: absolute;
+    top: 0;
+    right: -10px;
+    z-index: 10000000000000 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;  
+    color: var(--kul);
+}
+.mySwiper{
+    height: 90px !important;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .manager_hero_main_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .manager_hero_main_p1{
+        width: 60%;
+        text-align: center;
+    }
+    .manager_hero_main_btn{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    .manager_hero_main_div{
+        position: absolute;
+        top: -100px;
+        left: 20px;
+    }
+    .manager_hero_main_div1{
+        position: absolute;
+        right: 20px;
+        bottom: -90px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .manager_hero_main_div{
+        display: none;
+    }
+    .manager_hero_main_div1{
+        display: none;
+    }
+    .mySwiper{
+        padding-left: 100px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .mySwiper{
+        padding-left: 60px;
+    }
+}
